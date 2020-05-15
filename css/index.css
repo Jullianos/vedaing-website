@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+html {
+    overflow-x: hidden;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+/*CUSTOM*/
+.font-roboto {
+  font-family: 'Roboto', sans-serif  !important;
+}
+
+.generator-image {
+    width: 358px;
+}
+
+.top-bar {
+    height: 20px;
+    width: 100%;
+    background-color: rgb(255, 220, 66);
+}
+.veda-logo {
+    height: 60px !important;
+}
+
+#contact-container {
+    border-left: 1px solid darkgrey;
+}
+
+.font-family-montserrat {
+    font-family: 'Roboto', sans-serif;
+}
+.font-family-source {
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-indent-05 {
+    text-indent: .5em;
+}
+.product-item {
+    margin-top: 80px !important;
+}
+
+.product-item p {
+    width: 50%;
+    margin: 15px auto 15px;
+    font-size: 1.3em;
+}
+
+.product-item ul {
+    width: 50%;
+    margin: 15px auto 15px;
+    font-size: 1.3em;
+}
+
+.product-item img {
+    margin: 15px auto 15px;
+    display: block;
+}
+
+.product-item img {
+    margin-top: 30px;
+}
+
+.block-products {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.display-block {
+    display: block;
+}
+
+.text-align-justified {
+    text-align: justify;
+}
+
+.block-products img {
+    margin-top: 20px;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.margin-top-50 {
+    margin-top: 50px;
+}
+
+.margin-right-50 {
+    margin-right: 50px;
+}
+
+.margin-top-80 {
+    margin-top: 80px;
+}
+
+.margin-bottom-50 {
+    margin-bottom: 50px;
+}
+
+.margin-0-auto {
+    margin: 0 auto;
+}
+/*ABOUT US*/
+.about-us-container p  {
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+}
+
+.about-us-container ul {
+    list-style-type: circle;
+    margin-bottom: 30px;
+}
+
+.about-us-container li {
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about-us-container h1, .product-item h1 {
+    font-size: 3em;
+}
+
+.about-us-container h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+
+/* NAVBAR */
+.mini-nav-bar a {
+    color: white;
+    background-color: #2F3230;
+    font-size: 1.3em;
+}
+
+/*CONTACT*/
+.contact-container div {
+    width: 320px;
+    padding-left: 30px;
+}
+
+#iso-icon-index {
+  height: 284px;
+  text-align: center;
+  padding-top: 66px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+#iso-icon-index img {
+  height: 150px;
+  width: 150px;
+  max-width: none;
+}
+
+#footer {
+  font-family: 'Roboto', sans-serif;
+    background-color: rgb(255, 220, 66);
+    margin-top: 80px;
+    border-top: 1px solid lightgrey;
+    padding: 1rem;
+}
+
+#contact-container {
+    border: none;
+}
+
+.certificates {
+
+}
+
+.certificates div {
+    background-color: rgb(255, 220, 66);
+    text-align: center;
+    padding: 30%;
+}
+
+.certificates p {
+    text-align: center;
+    width: max-content;
+    padding-top: 5px;
+    margin: 0;
+}
+
+.our-products div {
+    padding: .5em;
+    background-color: #2F3230;
+}
+
+.our-products .title {
+    padding: .5em;
+    background-color: #2f32307a;
+}
+
+.our-products h3 {
+    color: white;
+    text-indent: .5em;
+    margin: 0;
+}
+
+@media only screen and (max-width: 1540px) {
+    #about-container {
+        margin-left: 50%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #about-container {
+        margin-left: 35%;
+    }
+
+    #iso-icon-index {
+      height: 239px;
+    }
+
+    #iso-icon-index img {
+      height: 110px;
+      width: 110px;
+      max-width: initial;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    #about-container {
+        margin-left: 32%;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    #about-container {
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .certificates p {
+      display: none;
+    }
+
+    #iso-icon-index {
+      height: 150px;
+      padding-top: 40px;
+    }
+
+    #iso-icon-index img {
+      height: 75px;
+      width: 75px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .logo-header {
+      text-align: center;
+    }
+
+    .nav-header {
+      text-align: center  !important;
+    margin-bottom: 20px;
+    }
+
+    #iso-icon-index {
+      height: 105px;
+      padding-top: 25px;
+    }
+
+    #iso-icon-index img {
+      height: 60px;
+      width: 60px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    #about-container {
+        width: auto;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+#cert-carousel .carousel-inner {
+    width: 100%;
+    max-height: 460px;
+}
+
+#cert-carousel .carousel-inner img {
+  height: 460px;
+  width: initial  !important;
+    margin: 0 auto;
+}
+
+.carousel-indicators li {
+  background-color: rgb(255, 220, 66);
+  opacity: .2;
+}
+
+
+/* Bootstrap overwrites */
+.navbar {
+    background-color: rgb(255, 220, 66) !important;
+    padding: .1rem 1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+    padding: 0 !important;
+}
+
+.mini-nav-bar {
+    padding-top: 1em;
+    text-align: right;
+}
+
+.cover-image {
+    height: 80px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.mini-nav-bar a {
+    width: auto;
+    padding: .5em;
+}
+
+.carouser-center-fix {
+    bottom: initial !important;
+    top: 40% !important;
+}
+
+.carouser-full-screen-fix {
+    max-height: calc(100vh - 79px) !important;
+}
